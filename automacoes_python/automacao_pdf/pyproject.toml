@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "automacao-pdf"
+version = "0.1.0"
+description = "projeto dede automação de download e mesclagem de pdf."
+authors = ["Alice"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+pypdf2 = "^3.0.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
